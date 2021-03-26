@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dog App</title>
+  </head>
+  <body>
+    <h1>Sylvia's Dog API</h1>
+    <div class="container">
+      <form>
+        <input
+          type="number"
+          aria-label="Number between 1 and 50"
+          placeholder="1-50"
+          id="number-of-dogs"
+          min="1"
+          max="50"
+          value="3"
+          required
+        />
+        <input type="submit" />
+      </form>
+      <div class="results"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
